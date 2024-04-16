@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JwPlayer / Bradmax analytics</title>
+    <script src="//content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+    <script>
+    function initApp() {
+        var config = {
+            "file": "https://bradmax.com/static/video/tears_of_steel.mp4",
+            "image": "https://bradmax.com/static/images/startsplash.jpg",
+            "title": "jwplayer plugin for bradmax analytics",
+            "description": "downloaded from content.jwplatform.com/videos",
+            "plugins": {
+                "https://bradmax.com/static/bradmax-analytics-for-players/latest/bradmax.analytics.js": {
+                    "clientToken": "SJnO!AzdDggLdOyAIdBg5DIjjeIOMAFd9gADV" /* Copy your token instead of this one. */
+                }
+            }
+        };
+
+        jwplayer("mp4player").setup(config);
+    }
+
+    document.addEventListener("DOMContentLoaded", initApp);
+    </script>
+</head>
+<body>
+    <h2>JwPlayer / Bradmax analytics</h2>
+    <div id="mp4player"></div>
+</body>
+</html>
