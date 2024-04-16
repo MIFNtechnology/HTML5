@@ -4,12 +4,19 @@
     <title>HTML5 / Bradmax analytics</title>
 
     <!-- Bradmax analytics -->
-    <script src="https://example.com/bradmax.analytics.js"></script>
+    <script src="bradmax.analytics.js"></script>
     <script>
     function initApp() {
         var element = document.getElementById("video");
         var config = {
-            clientToken: "!iYaOqm~txZmJa0q_~mJnZ*tcXZIGqo~1J5ZPt"
+            clientToken: "!iYaOqm~txZmJa0q_~mJnZ*tcXZIGqo~1J5ZPt",
+            mediaMetadata: {
+                materialId: "701",
+                relatedId: "7001",
+                duration: 734,
+                title: "Tears of Steel",
+                tags: ["test", "entertaiment"]
+            }
         };
         var api = new bradmax.analytics.Html5(element, config);
     }
@@ -21,7 +28,7 @@
 <h2>HTML5 / Bradmax analytics</h2>
 
     <!-- HTML5 video tag -->
-    <video id="video" controls poster="https://bradmax.com/static/images/startsplash.jpg" width="400" height="260" src="https://bradmax.com/static/video/tears_of_steel.mp4">
+    <video id="video" controls poster="https://bradmax.com/static/images/startsplash.jpg" width="600" height="400" src="https://bradmax.com/static/video/tears_of_steel.mp4">
     </video>
 </body>
 </html>
