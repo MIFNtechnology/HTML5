@@ -16,5 +16,3 @@
 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/DidikTv.png" alt="DidikTv" width="40" />](https://mifntechnology.github.io/HTML5/content/Ntv7_live_stream/script.html)
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/8tv.png" alt="8tv" width="40" />](https://mifntechnology.github.io/HTML5/content/8tv_live_stream/script.html)
-[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png" alt="TvAlhijrah" width="60" />](https://mifntechnology.github.io/HTML5/content/TvAlhijrah_live_stream/script.html)
-
