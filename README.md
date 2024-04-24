@@ -22,9 +22,15 @@
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/OkeyTv.png" alt="OkeyTv" width="100" />](https://mifntechnology.github.io/HTML5/content/OkeyTv_live_stream/script.html)
 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv6.png" alt="Tv6" width="100" />](https://mifntechnology.github.io/HTML5/content/Tv6_live_stream/script.html)
-[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/DidikTv.png" alt="DidikTv" width="80" />](https://mifntechnology.github.io/HTML5/content/Ntv7_live_stream/script.html)
-[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/8tv.png" alt="8tv" width="80" />](https://mifntechnology.github.io/HTML5/content/8tv_live_stream/script.html)
-[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv9.png" alt="Tv9" width="80" />](https://mifntechnology.github.io/HTML5/content/Tv9_live_stream/script.html)
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/DidikTv.png" alt="DidikTv" width="70" />](https://mifntechnology.github.io/HTML5/content/Ntv7_live_stream/script.html)
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/8tv.png" alt="8tv" width="70" />](https://mifntechnology.github.io/HTML5/content/8tv_live_stream/script.html)
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv9.png" alt="Tv9" width="70" />](https://mifntechnology.github.io/HTML5/content/Tv9_live_stream/script.html)
 
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tvs.jpg" alt="Tvs" width="100" />](https://mifntechnology.github.io/HTML5/content/Tvs_live_stream/script.html)
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvIkim.png" alt="TvIkim" width="100" />](https://mifntechnology.github.io/HTML5/content/TvIkim_live_stream/script.html)
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/SukanRtm.png" alt="SukanRtm" width="100" />](https://mifntechnology.github.io/HTML5/content/SukanRm_live_stream/script.html)
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/BeritaRtm.png" alt="BeritaRtm" width="100" />](https://mifntechnology.github.io/HTML5/content/BeritaRtm_live_stream/script.html)
+
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/AstroAwani.png" alt="Awani" width="70" />](https://mifntechnology.github.io/HTML5/content/Awani_live_stream/script.html)
+
 
