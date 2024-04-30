@@ -8,7 +8,7 @@
 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv1.png" alt="Tv1" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Tv1_live_stream/script.html) 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv2.png" alt="Tv2" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Tv2_live_stream/script.html)
-[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv3.png" alt="Tv3" align="centre" style="border:3px solid black" width="120" height="70" />](https://mifntechnology.github.io/HTML5/content/Tv3_live_stream/script.html) 
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv3.png" alt="Tv3" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Tv3_live_stream/script.html) 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/OkeyTv.png " alt="OkeyTv" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/OkeyTv_live_stream/script.html)
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tvs.png" alt="Tvs" align="centre"  style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Tvs_live_stream/script.html)
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv6.png" alt="Tv6" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Tv6_live_stream/script.html)
