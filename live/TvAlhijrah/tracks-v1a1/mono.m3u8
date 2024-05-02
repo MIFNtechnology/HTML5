@@ -1,1 +1,12 @@
-
+#EXTM3U
+#EXT-X-TARGETDURATION:5
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:4140451
+#EXTINF:5.000,
+https://live.mana2.my/TvAlhijrah/47-05000.ts
+#EXTINF:5.000,
+https://live.mana2.my/TvAlhijrah/52-05000.ts
+#EXTINF:5.000,
+https://live.mana2.my/TvAlhijrah/57-05000.ts
+#EXTINF:5.000,
+https://live.mana2.my/TvAlhijrah/02-05000.ts
