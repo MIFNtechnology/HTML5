@@ -2,11 +2,12 @@
 #EXT-X-TARGETDURATION:5
 #EXT-X-VERSION:3
 #EXT-X-MEDIA-SEQUENCE:4140451
+#EXT-X-PROGRAM-DATE-TIME:
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/47-05000.ts
+https://mifntechnology.github.io/HTML5/live/TvAlhijrah/47-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/52-05000.ts
+https://mifntechnology.github.io/HTML5/live/TvAlhijrah/52-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/57-05000.ts
+https://mifntechnology.github.io/HTML5/live/TvAlhijrah/57-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/02-05000.ts
+https://mifntechnology.github.io/HTML5/live/TvAlhijrah/02-05000.ts
