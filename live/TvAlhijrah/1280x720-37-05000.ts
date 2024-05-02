@@ -4,10 +4,10 @@
 #EXT-X-MEDIA-SEQUENCE:4141944
 #EXT-X-PROGRAM-DATE-TIME:
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/59/12-05000.ts
+https://live.mana2.my/TvAlhijrah/12-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/59/17-05000.ts
+https://live.mana2.my/TvAlhijrah/17-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/59/22-05000.ts
+https://live.mana2.my/TvAlhijrah/22-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/59/27-05000.ts
+https://live.mana2.my/TvAlhijrah/27-05000.ts
