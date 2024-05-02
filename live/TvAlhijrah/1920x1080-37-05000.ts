@@ -2,12 +2,12 @@
 #EXT-X-TARGETDURATION:5
 #EXT-X-VERSION:3
 #EXT-X-MEDIA-SEQUENCE:4141890
-#EXT-X-PROGRAM-DATE-TIME:2024-05-02T20:54:42.150Z
+#EXT-X-PROGRAM-DATE-TIME:
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/54/42-05000.ts?token=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-f4754a97517843e03aed47da640f9dec&auth_key=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-8cbb0dd2002ae84eb88d0d78966cf544
+https://live.mana2.my/TvAlhijrah/42-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/54/47-05000.ts?token=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-f4754a97517843e03aed47da640f9dec&auth_key=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-2d2f092796da34682af7005db73d41c7
+https://live.mana2.my/TvAlhijrah/47-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/54/52-05000.ts?token=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-f4754a97517843e03aed47da640f9dec&auth_key=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-ef28e03d6720600aad60a6fc8e4a1a6f
+https://live.mana2.my/TvAlhijrah/52-05000.ts
 #EXTINF:5.000,
-https://live.mana2.my/TvAlhijrah/2024/05/02/20/54/57-05000.ts?token=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-f4754a97517843e03aed47da640f9dec&auth_key=1714700405-0f8255be0ad14bc3bd36f2c09d53a87f-0-a347408a39a84fe6e877fe4b9dcd4a9b
+https://live.mana2.my/TvAlhijrah/57-05000.ts
