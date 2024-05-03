@@ -1,10 +1,10 @@
 #EXTM3U
-#EXT-X-TARGETDURATION:10
+#EXT-X-TARGETDURATION:5
 #EXT-X-VERSION:4
 #EXT-X-MEDIA-SEQUENCE:1
-#EXTINF:10.0,
+#EXTINF:5000,
 https://mifntechnology.github.io/HTML/live/TvAlhijrah/v1-5000.ts
-#EXTINF:10.0,
+#EXTINF:5000,
 https://mifntechnology.github.io/HTML/live/TvAlhijrah/v2-5000.ts
-#EXTINF:10.0,
+#EXTINF:5000,
 https://mifntechnology.github.io/HTML/live/TvAlhijrah/v3-5000.ts
