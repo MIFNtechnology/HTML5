@@ -1,11 +1,13 @@
 #EXTM3U
-#EXT-X-TARGETDURATION:5
+#EXT-X-TARGETDURATION:6
 #EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:4203023
-#EXT-X-PROGRAM-DATE-TIME:
+#EXT-X-MEDIA-SEQUENCE:4205582
+#EXT-X-PROGRAM-DATE-TIME:2024/05/06 21:41:43 GMT+08:00
 #EXTINF:5.000,
-https://mifntechnology.github.io/HTML5/content/TvAlhijrah_live_stream/852x480-03-05000.mp4
+23-05000.ts
+#EXTINF:5.004,
+28-05004.ts
 #EXTINF:5.000,
-https://mifntechnology.github.io/HTML5/content/TvAlhijrah_live_stream/1280x720-08-05000.mp4
+33-05000.ts
 #EXTINF:5.000,
-https://mifntechnology.github.io/HTML5/content/TvAlhijrah_live_stream/1920x1080-08-05000.mp4
+38-05000.ts
