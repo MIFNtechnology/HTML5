@@ -29,6 +29,5 @@
 **RADIO**
 
 [<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/HotFm.png" alt="SpongeBob" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/HotFm/script.html)
-
-
+[<img src="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Suria.png" alt="SpongeBob" align="centre" style="border:3px solid black" width="125" height="70" />](https://mifntechnology.github.io/HTML5/content/Suria/script.html)
 
