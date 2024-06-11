@@ -2,6 +2,9 @@
 <html>
   <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+      <iframe id="player" type="text/html" width="950" height="700"
+  src="http://www.youtube.com/embed/s5q_AURzAk8?enablejsapi=1&origin=http://example.com"
+  frameborder="0"></iframe>
     <div id="player"></div>
 
     <script>
@@ -19,7 +22,7 @@
         player = new YT.Player('player', {
           height: '700',
           width: '950',
-          videoId: 'XtLxIfii-B4',
+          videoId: 's5q_AURzAk8',
           playerVars: {
             'playsinline': 1
           },
