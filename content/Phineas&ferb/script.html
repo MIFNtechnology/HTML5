@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <iframe width="950" height="700" src="https://www.youtube.com/embed/Fjp2TdlTTIU?si=S_2duVmcFWNFrydj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe id="player" type="text/html" width="640" height="390"
+  src="https://www.youtube.com/embed/yNf1nnQrfi4?enablejsapi=1&origin=https://raw.githubusercontent.com/MIFNtechnology/YtM3u8/github-private/DisneyXd/live.m3u8 "
+  frameborder="0"></iframe>
 
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
@@ -17,9 +18,9 @@
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '700',
-          width: '950',
-          videoId: 'Fjp2TdlTTIU',
+          height: '390',
+          width: '640',
+          videoId: 'yNf1nnQrfi4',
           playerVars: {
             'playsinline': 1
           },
