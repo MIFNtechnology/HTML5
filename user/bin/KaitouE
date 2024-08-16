@@ -33,8 +33,10 @@ https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
 #EXTINF:-1 tvg-group="siaranMy" tvg-id="TVSUKAN" tvg-name="SUKAN RTM" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/SukanRtm.png",SUKAN RTM
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 
-#EXTINF:-1 tvg-group="siaranMy" tvg-id="BernamaTV" tvg-name="BernamaTV" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Bernama.png", BERNAMA
-https://ythls-v3.onrender.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"OaJ6osyEoptmX8xNv5xUtg", "kid":"FAa78hjKFPlnA0/PSr93EA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-group="siaranMy" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/160_144.png" tvg-id="BernamaTV" tvg-name="BernamaTV", BERNAMA
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_primary.mpd
 
 #EXTINF:-1 tvg-group="siaranMy" tvg-id="TVS"  tvg-number="121" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tvs.jpg",TVS
 https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
@@ -109,47 +111,83 @@ https://mifntechnology.github.io/siaranMy/radio/8Fm/playlist.m3u8
 SINGAPORE##########################################################################################################
 
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KMxTZ99mbES+Q4LmSvZNVw", "kid":"YHt9IlZcS8O5X/bDPOZUJQ" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://iili.io/H7B4QYF.png" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel 5 
-https://tglmp02.akamaized.net/out/v1/5081e069e08140c9b95f89a1659cf4dd/manifest.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"9I62dT89F3TaaClwyTzyYA", "kid":"JEj8VhsMQiCoHxAIlx0wiA" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel 8
-https://tglmp02.akamaized.net/out/v1/4f6561ad194b49ae93f4e1b075afdf41/manifest.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"LMaeqqhY/tJMViNlTa+NPQ", "kid":"AyihU8KZSyeasDqyUQL8WQ" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel U
-https://tglmp03.akamaized.net/out/v1/1057d89ee3d94148b430b5866e3a540a/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"L1oxmbJum2k66IGvf/hkzw", "kid":"7fGnFd6XSGON0vrXWkGa8g" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ANIMAX (SGP)
-https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KMxTZ99mbES+Q4LmSvZNVw", "kid":"YHt9IlZcS8O5X/bDPOZUJQ" } ], "type":"temporary" }
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"rUUgLmT2bvNrP2D6yTzEfw", "kid":"I0HC7NPPSGWIG7D6Eofejw" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ACTION (SGP)
-https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.mpd
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://iili.io/H7B4QYF.png" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel 5 
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"QLnyUEVbQ7Oy6mhFq4Gryg", "kid":"kimBTGKbQG+N6Y0vI8looA" } ], "type":"temporary" }
-#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ENTERTAINMENT (SGP)
-https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd
+https://tglmp02.akamaized.net/out/v1/5081e069e08140c9b95f89a1659cf4dd/manifest.mpd
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"9I62dT89F3TaaClwyTzyYA", "kid":"JEj8VhsMQiCoHxAIlx0wiA" } ], "type":"temporary" }
+
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel 8
+
+https://tglmp02.akamaized.net/out/v1/4f6561ad194b49ae93f4e1b075afdf41/manifest.mpd
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"LMaeqqhY/tJMViNlTa+NPQ", "kid":"AyihU8KZSyeasDqyUQL8WQ" } ], "type":"temporary" }
+
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",Channel U
+
+https://tglmp03.akamaized.net/out/v1/1057d89ee3d94148b430b5866e3a540a/manifest.mpd
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"L1oxmbJum2k66IGvf/hkzw", "kid":"7fGnFd6XSGON0vrXWkGa8g" } ], "type":"temporary" }
+
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ANIMAX (SGP)
+
+https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.mpd
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"rUUgLmT2bvNrP2D6yTzEfw", "kid":"I0HC7NPPSGWIG7D6Eofejw" } ], "type":"temporary" }
+
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ACTION (SGP)
+
+https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.mpd
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"QLnyUEVbQ7Oy6mhFq4Gryg", "kid":"kimBTGKbQG+N6Y0vI8looA" } ], "type":"temporary" }
+
+#EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ENTERTAINMENT (SGP)
+
+https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd
+
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Channel-8-data.jpg" group-title="Chinese" tvg-id="Ch 8" tvg-name="Ch 8", Channel 8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
