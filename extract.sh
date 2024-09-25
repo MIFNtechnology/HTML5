@@ -13,7 +13,7 @@ for x in [player]*.html; do
 done
 
 cp IPTV.m3u ../../
-cp IPTV.m3u ~/Development/Github/M3u8-URL-Extractor-from-Live-Server
+cp IPTV.m3u ~/Development/Github/HTML5
 cd ~/Development/Github/HTML5
 
 git add .
