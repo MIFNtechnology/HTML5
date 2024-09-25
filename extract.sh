@@ -8,7 +8,7 @@ i=1
 for x in [player]*.html; do
   var=$(cat $x | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*.[0-9]" | sort -u | head -1; echo "\n")
   echo "#EXTINF:-1, Channel $i" >> radio.m3u8
-  echo $var >> IPTV.m3u
+  echo $var >> radio.m3u8
   i=$((i+1))
 done
 
