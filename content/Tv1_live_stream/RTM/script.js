@@ -1,32 +1,12 @@
-var initPlayer = function(id,setup) {
-		var gluePlayer = new GluePlyr();
-		gluePlayer.setup(id,setup);
-		return gluePlayer;
-	};
-	var title = "TV1";
-	var img = "https://rtm.glueapi.io/v1/content/1/image/960x540/images.title?c=20230104";
-	var token = "";
-	var playerSettings = {
-		apiPath : "https://rtm.glueapi.io",
-		svgPath : "/latest/includes",
-		watermark : "https://rtm-images.glueapi.io/filters:quality(100)/200x0/system/rtm-watermark.png",
-		target : "player-card-1",
-		poster :  "https://rtm.glueapi.io/v1/content/1/image/960x540/images.title?c=20230104",
-		site : "RTMKlik",
-		type : "video",
-		skin : "0",
-		psa : "",
-		ads : false,
-		casting : true
-	}
-	
-	if(token != "") playerSettings.token = token;
-	window.addEventListener('DOMContentLoaded', function(event){
-		window.gluePlayer = initPlayer(1,playerSettings);
-	});
-	window['__onGCastApiAvailable'] = function(isAvailable) {
-		if (isAvailable) {
-			const castContext = cast.framework.CastContext.getInstance();
-		  	console.log("castContext",castContext);
-		}
-	};
+var player = new Clappr.Player({
+            source: "https://mifntechnology.github.io/siaranMy/channels/Tv1/index.m3u8",
+            poster: "https://mifntechnology.github.io/siaranMy/logo/Tv1.png",
+            gaAccount: 'UA-44332211-1',
+            gaTrackerName: 'MyPlayerInstance',
+            watermark: "",
+            hideVolumeBar: true,
+            width: "900",
+            height: "700",
+            position: 'center',
+            parentId: "#player"
+        });
