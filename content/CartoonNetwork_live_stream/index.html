@@ -9,44 +9,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.1.1/shaka-player.ui.min.js" crossorigin="anonymous">
 			</script>
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.1.1/controls.min.css" crossorigin="anonymous">
-			<style>
-				html, body {
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      height: 100%;
-    }
-
-    .watermark-link {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 9999;
-      background: #D50000;
-      color: white;
-      padding: 6px 12px;
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 4px;
-      text-decoration: none;
-      font-family: sans-serif;
-      animation: pulse 2.5s infinite ease-in-out;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.6; }
-    }
-
-    .watermark-link:hover {
-      background: #FF1744;
-    }
-			</style>
-
 		</head>
-		
-		<!-- ✅ Watermark here -->
-			<a href="./CartoonNetwork_live_stream" target="_blank" class="watermark-link">CartoonNetwork</a>
 			
 		<body>
 			<center>
@@ -54,7 +17,7 @@
 					<video autoplay="" data-shaka-player="" id="video" style="width:100%;height:100%;" class="shaka-video" src="">
 					</video>
 				</div>
-				<script  src="./video.js">
+				<script type="text/javascript" src="./video.js">
 				</script>
 			</center>
 		</body>
