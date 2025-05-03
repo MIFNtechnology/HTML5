@@ -1,43 +1,37 @@
-// 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
+async function init() {
+      const video = document.getElementById('video');
+      const ui = video['ui'];
+      const controls = ui.getControls();
+      const player = controls.getPlayer();
 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '700',
-          width: '950',
-          videoId: 'eJLOznSFhPI',
-          playerVars: {
-            'playsinline': 1
-          },
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
+      player.configure({
+        drm: {
+          clearKeys: {
+            '41a42fb5af457501c11bb9b158d5a110': '57a8d6f9e3832887db18ea6071118736'
           }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
         }
+      });
+
+      player.setTextTrackVisibility(true); // Auto ON caption
+
+      window.player = player;
+      window.ui = ui;
+
+      player.addEventListener('error', onPlayerErrorEvent);
+      controls.addEventListener('error', onUIErrorEvent);
+
+      try {
+        await player.load('https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd');
+        console.log('✅ Stream loaded!');
+      } catch (error) {
+        onPlayerError(error);
       }
-      function stopVideo() {
-        player.stopVideo();
-      }
+    }
+
+    function onPlayerErrorEvent(errorEvent) { onPlayerError(event.detail); }
+    function onPlayerError(error) { console.error('Error code', error.code, 'object', error); }
+    function onUIErrorEvent(errorEvent) { onPlayerError(event.detail); }
+    function initFailed(errorEvent) { console.error('❌ UI load failed!'); }
+
+    document.addEventListener('shaka-ui-loaded', init);
+    document.addEventListener('shaka-ui-load-failed', initFailed);
