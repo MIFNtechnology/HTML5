@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tv1</title>
+    <script src="//content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+    <script>
+    function initApp() {
+        var config = {
+            "file": "https://mifntechnology.github.io/siaranMy/channels/Tv1/index.m3u8",
+            "image": "https://mifntechnology.github.io/siaranMy/logo/Tv1.png",
+            "title": "Tv1",
+            "description": "downloaded from content.github.com/MIFNtechnology/siaranMy/",
+            "plugins": {
+                "https://MIFNtechnology.github.io/HTML5/bradmax.analytics.js": {
+                    "clientToken": "xoA4Wzm~b3-wN4Dzg~8Nn-LbBewmGz2~eN_-Pb" /* Copy your token instead of this one. */
+                }
+            }
+        };
+
+        jwplayer("mp4player").setup(config);
+    }
+
+    document.addEventListener("DOMContentLoaded", initApp);
+    </script>
+</head>
+<body>
+    <div id="mp4player"></div>
+</body>
+</html>
