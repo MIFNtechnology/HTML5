@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Tv1</title>
-    <script src="//content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
-    <script>
-    function initApp() {
-        var config = {
-            "file": "https://mifntechnology.github.io/siaranMy/channels/Tv1/index.m3u8",
-            "image": "https://mifntechnology.github.io/siaranMy/logo/Tv1.png",
-            "title": "Tv1",
-            "description": "downloaded from content.github.com/MIFNtechnology/siaranMy/",
-            "plugins": {
-                "https://MIFNtechnology.github.io/HTML5/bradmax.analytics.js": {
-                    "clientToken": "xoA4Wzm~b3-wN4Dzg~8Nn-LbBewmGz2~eN_-Pb" /* Copy your token instead of this one. */
-                }
-            }
-        };
-
-        jwplayer("mp4player").setup(config);
-    }
-
-    document.addEventListener("DOMContentLoaded", initApp);
-    </script>
-</head>
-<body>
-    <div id="mp4player"></div>
-</body>
-</html>
+	<html>
+		<head>
+			<title>Tv1</title>
+			<link rel="stylesheet" href="https://ejunds.github.io/mifn-iptv/style.css">
+			<link href="https://vjs.zencdn.net/8.9.0/video-js.css" rel="stylesheet" />
+			<script defer src="https://vjs.zencdn.net/8.9.0/video.min.js">
+			</script>
+		</head>
+		<body>
+			<center>
+				<video
+					id="siaranMy"
+					class="video-js"
+					controls
+					preLoad="auto"
+					control poster="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv1.png"
+					width="900"
+					height="700"
+					data-setup="{}"
+					>
+						
+					<source src=" ./master.m3u8" type="application/vnd.apple.mpegurl">
+				</video>
+			</center>
+		</body>
+    </html>
