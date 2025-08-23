@@ -4,154 +4,21 @@
 	<link rel="stylesheet" type="text/css" href="https://rtm-player.glueapi.io/latest/js/bitmovinplayer-ui.css">
 		<title>TV1</title>
 	<link rel="stylesheet" href="/latest/includes/css/index.97a5ceef.css?cache=202301042" type="text/css">
-	<link rel="stylesheet" href="/latest/includes/css/default.css?cache=2023010412" type="text/css">
+	<link rel="stylesheet" href="https://rtm-player.glueapi.io/latest/includes/css/default.css?cache=2023010412" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<meta name="robots" content="noindex">
 	<meta http-equiv="Cache-control" content="public">
-	<style class="video-player-style" type="text/css">
-.bitmovinplayer-poster {
-    position : absolute;
-    top : 0;
-    bottom : 0;
-    left : 0;
-    right : 0;
-    display : none;
-    background-size : contain;
-    background-position : center;
-    background-repeat : no-repeat;
-}
-
-.bitmovinplayer-container {
-    padding: 0;
-    margin: 0;
-    position : relative;
-    /* overflow:hidden will be needed in the future to allow fit/stretch/etc the video */
-    overflow : hidden;
-    min-height: 150px;
-    min-width: 260px;
-    box-sizing: content-box;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-}
-.bitmovinplayer-container:before {
-    display: block;
-    content: '';
-    width: 100%;
-}
-.bitmovinplayer-container video, .bitmovinplayer-container object, .bitmovinplayer-container > canvas {
-    position: absolute;
-    top: 0;
-    left:0;
-    bottom:0;
-    right:0;
-    width: 100%;
-    height: 100%;
-}
-
-.bitmovinplayer-container > * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-}
-
-.bitmovinplayer-container.aspect-16x9:before {
-    padding-bottom: 56.25%;
-}
-.bitmovinplayer-container.aspect-16x10:before {
-    padding-bottom: 62.5%;
-}
-.bitmovinplayer-container.aspect-4x3:before {
-    padding-bottom: 75%;
-}
-.bitmovinplayer-container.aspect-3x2:before {
-    padding-bottom: 66.66%;
-}
-
-/* e.g. wordpress sets the height for these elements to 'auto' which leads to problems for example on Windows 7 in IE11 (with Flash) */
-.bitmovinplayer-container object, .bitmovinplayer-container embed, .bitmovinplayer-container img {
-    height: 100%;
-}
-
-.bitmovinplayer-container, .bitmovinplayer-ad-container {
-    width:100%;
-    height:100%;
-    background-color: black;
-    color: #ffffff;
-    /* make text (like subtitles etc.) unselectable */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-}
-.bitmovinplayer-container video, .bitmovinplayer-ad-container video {
-    object-fit: contain;
-    -o-object-fit: contain;
-}
-/* fullscreen */
-html:-ms-fullscreen {
-    width:100%;
-    height:100%;
-}
-:-webkit-full-screen {
-    background-color:transparent;
-    width: 100% !important;
-    height: 100% !important;
-}
-video:-webkit-full-screen + .bitmovinplayer-ctrl {
-    background:#ccc; /* required for Chrome which doesn't heed the transparent value set above */
-}
-/* hide controls on fullscreen with WebKit */
-*[data-fullscreen=true], *[data-legacy-fullscreen=true] {
-    max-width:100%;
-    max-height:100%;
-    width:100% !important;
-    height:100% !important;
-    background-color: black !important;
-    margin:0;
-    padding:0;
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-}
-*[data-legacy-fullscreen=true] {
-    z-index: 99999;
-}
-
-.bitmovinplayer-error-message ul {
-    text-align: left;
-}
-
-.bitmovinplayer-error-message a {
-    color: #31c5c7;
-}
-/* from http://stackoverflow.com/a/37553385 */
-.bitmovinplayer-container video::-webkit-media-controls-panel {
-    display: none!important;
-    -webkit-appearance: none;
-}
-.bitmovinplayer-container video::-webkit-media-controls-play-button {
-    display: none!important;
-    -webkit-appearance: none;
-}
-.bitmovinplayer-container video::-webkit-media-controls-start-playback-button {
-    display: none!important;
-    -webkit-appearance: none;
-}
-    </style>
+	
 	</head>
 	<body id="body">
-	
+		<center>
+	
 	<div id="player-container" class="container">
 	</div>
 	<div id="player-card-1">
 	普
 	</div>
-	
+	
 	<script src="https://rtm-player.glueapi.io/latest/js/index.31d8e00a.js?cache=202301042">
 	</script>
 	<script>
@@ -176,7 +43,7 @@ video:-webkit-full-screen + .bitmovinplayer-ctrl {
 		ads : false,
 		casting : true
 	}
-	
+	
 	if(token != "") playerSettings.token = token;
 	window.addEventListener('DOMContentLoaded', function(event){
 		window.gluePlayer = initPlayer(1,playerSettings);
@@ -188,6 +55,6 @@ video:-webkit-full-screen + .bitmovinplayer-ctrl {
 		}
 	};
 	</script>
-	
+	  </center>
 	</body>
 </html>
