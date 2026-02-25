@@ -1,38 +1,16 @@
-const manifestUri = 'https://mifntechnology.github.io/siaranMy/channels/Tv3/manifest.m3u8';
- 'https://linearjitp-playback.astro.com.my/hls-mp4-fp/linear/809/default_primary.m3u8';
-
-    function initApp() {
-      shaka.polyfill.installAll();
-      if (shaka.Player.isBrowserSupported()) {
-        init();
-      } else {
-        console.error('Browser not supported!');
-      }
-    }
+const manifestUri = 'https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(TV3)/master.mpd';
 
     async function init() {
       const video = document.getElementById('video');
       const ui = video['ui'];
       const controls = ui.getControls();
       const player = controls.getPlayer();
-      const config = {
-        'seekBarColors': {
-          base: 'rgba(66, 133, 244, 0.35)',
-          buffered: 'rgba(66, 133, 244, 0.6)',
-          played: 'rgba(66, 133, 244, 0.8)',
-        },
-        'volumeBarColors': {
-          base: 'rgba(66, 133, 244, 0.8)',
-          level: 'rgb(66, 133, 244)',
-        }
-      }
-      ui.configure(config);
       
       player.configure({
   drm: {
     clearKeys: {
       // 'key-id-in-hex': 'key-in-hex',
-        '3bc3f0e518aed92e80a98118e5bc2c10': '5fce364fbc4499856597b19a96f44648'
+        'ce43641a061a44fb9d95d986cfc9a68f': '3d63855ca5cdfcfb765f306b98bcc646'
     }
   }
 });
@@ -70,10 +48,3 @@ const manifestUri = 'https://mifntechnology.github.io/siaranMy/channels/Tv3/mani
 
     document.addEventListener('shaka-ui-loaded', init);
     document.addEventListener('shaka-ui-load-failed', initFailed);
-    document.addEventListener('DOMContentLoaded', initApp);
-
-    Object.defineProperty(navigator, 'userAgent', {
-      get: function() { // Latest (Feb 18, 2024)
-        return 'User Agent: Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36';
-      }
-    });
